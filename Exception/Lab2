@@ -1,3 +1,10 @@
-a=0
-x = 10/a
-print(x)#ZeroDivisionError: division by zero
+try:
+    print("try begin:")
+    x = int("0")
+    result = 10/x
+    print("try end")
+except ValueError:
+    print("not a valid integer")
+except ZeroDivisionError:
+    print("not divisible by zero ")
+print("program is continue-------")
