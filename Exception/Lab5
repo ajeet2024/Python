@@ -1,0 +1,5 @@
+try:
+  file =open("myjlc.txt",r)
+
+except Exception as ex:
+  print("Error as open file",ex)
