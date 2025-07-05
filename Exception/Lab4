@@ -1,0 +1,4 @@
+try:
+    print(mylist)
+except Exception as ex:
+    print("Exception as " ,ex)
