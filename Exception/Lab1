@@ -1,2 +1,5 @@
-x=12
-print(x)
+try:
+    result = 10/0
+    print("Try end")
+except ZeroDivisionError:
+    print("you cant divided by zero :")
